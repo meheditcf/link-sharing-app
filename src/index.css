@@ -1,68 +1,81 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Instrument Sans', sans-serif;
+    color: var(--grey, #737373);
+    background: var(--light-grey, #FAFAFA);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;-
+display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+p {
+    margin: 0;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.inactive {
+    opacity: 0.25;
+}
+
+.profile--container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.picture--panel {
+    display: flex;
+    flex-direction: column;
+    background: var(--light-grey, #FAFAFA);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.image--text {
+    font-size: 12px;
+    font-family: Instrument Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.forms--container {
+    width: 100%;
+    background: var(--light-grey, #FAFAFA);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.rotateback {
+    transform: rotate();
+    transition: transform 0.5s;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+}
+
+@media screen and (min-width: 772px) {
+
 }
