@@ -1,4 +1,4 @@
-# Project Name
+# Link Sharing App
 
 Link Sharing App. This is a Frontend Interview Project for Kahf.
 
