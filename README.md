@@ -1,9 +1,44 @@
-# React + Vite
+# Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Brief description of the project or application, highlighting its purpose or main functionality.
 
-Currently, two official plugins are available:
+## 🛠️ Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# link-sharing-app
+- **JavaScript**
+- **React**
+- **Vite**
+- **React Router**
+- **Styled Components**
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### Prerequisites
+
+Ensure you have the following installed on your system:
+
+- **Node.js**
+- **npm** or **yarn** package manager
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/meheditcf/link-sharing-app.git
+    ```
+
+2. Navigate to the project directory or Skip this step If you are already at this directory:
+    ```bash
+    cd link-sharing-app
+    ```
+
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
