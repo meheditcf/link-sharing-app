@@ -1,6 +1,6 @@
 # Project Name
 
-Brief description of the project or application, highlighting its purpose or main functionality.
+Link Sharing App. This is a Frontend Interview Project for Kahf.
 
 ## 🛠️ Built With
 
